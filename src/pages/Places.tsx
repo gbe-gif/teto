@@ -9,9 +9,6 @@ export default function Places() {
       className="pb-24"
     >
       <div className="p-6 space-y-10 text-stone-300">
-        <div className="mb-2">
-          <h1 className="text-3xl font-black text-white tracking-tight">장소 🐾</h1>
-        </div>
         <section>
           <div className="flex flex-col gap-2 mb-4">
             <div className="w-full bg-stone-800 rounded-xl overflow-hidden flex justify-center">
@@ -21,8 +18,8 @@ export default function Places() {
               <img src="https://gbe88.uk/M/BG_22.webp" alt="보금자리 실내" className="w-full h-auto object-contain" referrerPolicy="no-referrer" />
             </div>
           </div>
-          <h2 className="text-2xl font-bold text-stone-100 mb-3">
-            보금자리
+          <h2 className="text-2xl font-bold text-stone-100 mb-4 border-b border-stone-700 pb-2">
+            🐾 보금자리
             <span className="block text-sm font-normal text-stone-400 mt-1">(서울 용산구 하이엔드 주상복합)</span>
           </h2>
           <ul className="list-disc list-outside ml-5 space-y-2 leading-relaxed break-keep">
@@ -37,7 +34,7 @@ export default function Places() {
           <div className="w-full bg-stone-800 rounded-xl overflow-hidden mb-4 flex justify-center">
             <img src="https://gbe88.uk/M/BG_24.webp" alt="휴고짐" className="w-full h-auto object-contain" referrerPolicy="no-referrer" />
           </div>
-          <h2 className="text-2xl font-bold text-stone-100 mb-3">휴고짐</h2>
+          <h2 className="text-2xl font-bold text-stone-100 mb-4 border-b border-stone-700 pb-2">🐾 휴고짐</h2>
           <ul className="list-disc list-outside ml-5 space-y-2 leading-relaxed break-keep">
             <li>삼형제가 거주하는 주상복합 상가 지하 2층에 위치한 300평대 피트니스 센터임.</li>
             <li>전체적으로 블랙 톤의 묵직한 인테리어를 자랑함.</li>
@@ -50,7 +47,7 @@ export default function Places() {
           <div className="w-full bg-stone-800 rounded-xl overflow-hidden mb-4 flex justify-center">
             <img src="https://gbe88.uk/M/BG_25.webp" alt="창고형 약국" className="w-full h-auto object-contain" referrerPolicy="no-referrer" />
           </div>
-          <h2 className="text-2xl font-bold text-stone-100 mb-3">창고형 약국</h2>
+          <h2 className="text-2xl font-bold text-stone-100 mb-4 border-b border-stone-700 pb-2">🐾 창고형 약국</h2>
           <ul className="list-disc list-outside ml-5 space-y-2 leading-relaxed break-keep">
             <li>집에서 차로 20분 거리에 있는 상가 지하 1층의 260평 규모 대형 약국임.</li>
             <li>화이트 앤 블루 톤의 깔끔한 대형 마트 스타일로 꾸며져 있음.</li>
@@ -62,7 +59,7 @@ export default function Places() {
           <div className="w-full bg-stone-800 rounded-xl overflow-hidden mb-4 flex justify-center">
             <img src="https://gbe88.uk/M/BG_23.webp" alt="부모님댁" className="w-full h-auto object-contain" referrerPolicy="no-referrer" />
           </div>
-          <h2 className="text-2xl font-bold text-stone-100 mb-3">부모님댁</h2>
+          <h2 className="text-2xl font-bold text-stone-100 mb-4 border-b border-stone-700 pb-2">🐾 부모님댁</h2>
           <ul className="list-disc list-outside ml-5 space-y-2 leading-relaxed break-keep">
             <li>인적이 드문 강원도 배산임수 지형에 지어진 이국적인 빨간 벽돌집임.</li>
             <li>30평대 본채는 프렌치풍의 우아한 인테리어로 실거주 공간임.</li>
