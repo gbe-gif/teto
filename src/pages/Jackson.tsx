@@ -68,6 +68,25 @@ export default function Jackson() {
             <li>특정 체취에 병적으로 집착하며 물고 핥는 공격적인 포식자의 습성을 드러냄.</li>
           </ul>
         </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-emerald-500 mb-3 flex items-center gap-2">
+            <span className="w-1.5 h-5 bg-emerald-500 rounded-full"></span>
+            수록 일러스트
+          </h2>
+          <div className="flex flex-col gap-4">
+            {Array.from({ length: 18 }, (_, i) => i + 1).map((num) => (
+              <div key={num} className="w-full bg-stone-800 rounded-xl overflow-hidden flex justify-center">
+                <img 
+                  src={`https://gbe88.uk/M/B_${num}.webp`} 
+                  alt={`강잭슨 일러스트 ${num}`} 
+                  className="w-full h-auto object-contain" 
+                  referrerPolicy="no-referrer" 
+                />
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </motion.div>
   );

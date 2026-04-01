@@ -68,6 +68,25 @@ export default function Hugo() {
             <li>이론에 빠삭하며 상대의 해부학적 약점을 집요하게 공략하는 예상외의 테크니션임.</li>
           </ul>
         </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-white mb-3 flex items-center gap-2">
+            <span className="w-1.5 h-5 bg-white rounded-full"></span>
+            수록 일러스트
+          </h2>
+          <div className="flex flex-col gap-4">
+            {Array.from({ length: 18 }, (_, i) => i + 1).map((num) => (
+              <div key={num} className="w-full bg-stone-800 rounded-xl overflow-hidden flex justify-center">
+                <img 
+                  src={`https://gbe88.uk/M/A_${num}.webp`} 
+                  alt={`강휴고 일러스트 ${num}`} 
+                  className="w-full h-auto object-contain" 
+                  referrerPolicy="no-referrer" 
+                />
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </motion.div>
   );

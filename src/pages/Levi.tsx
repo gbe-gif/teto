@@ -68,6 +68,25 @@ export default function Levi() {
             <li>다정한 말투와 상반되게 지치지 않는 무한한 체력으로 상대를 숨 막히게 몰아붙임.</li>
           </ul>
         </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-sky-400 mb-3 flex items-center gap-2">
+            <span className="w-1.5 h-5 bg-sky-400 rounded-full"></span>
+            수록 일러스트
+          </h2>
+          <div className="flex flex-col gap-4">
+            {Array.from({ length: 18 }, (_, i) => i + 1).map((num) => (
+              <div key={num} className="w-full bg-stone-800 rounded-xl overflow-hidden flex justify-center">
+                <img 
+                  src={`https://gbe88.uk/M/C_${num}.webp`} 
+                  alt={`강레비 일러스트 ${num}`} 
+                  className="w-full h-auto object-contain" 
+                  referrerPolicy="no-referrer" 
+                />
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
     </motion.div>
   );
