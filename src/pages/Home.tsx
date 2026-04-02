@@ -10,7 +10,7 @@ export default function Home() {
     >
       <div className="w-full aspect-video bg-stone-800 flex items-center justify-center overflow-hidden">
         <img
-          src="https://gbe88.uk/thum/title-1.png"
+          src="https://gbe88.uk/thum/title_lapsrn_x2.webp"
           alt="세계관 메인 이미지"
           className="w-full h-full object-contain p-4"
           referrerPolicy="no-referrer"
